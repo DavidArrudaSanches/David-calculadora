@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 
+    font-family: "montserrat", sans-serif;
 }
 
 .container{
@@ -11,6 +14,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-color: #505050;
 }
 
 .calculator{
@@ -24,6 +29,9 @@
 .calculator__header{
     height: 10px;
     color: white;
+
+    display: flex;
+    justify-content: end;
 }
 
 .calculator__display{
@@ -31,11 +39,11 @@
     
     color: white;
     font-size: 40px;
+    
 }
 
 .calculator__keys{
     max-width: 400px;
-    
 
 }
 

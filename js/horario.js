@@ -6,11 +6,11 @@ function definirHora (){
             const horas = now.getHours();
             const minutos = now.getMinutes().toString().padStart(2,'0');
             const segundos = now.getSeconds().toString().padStart(2, '0');
-            const dataAtual = now.toLocaleDateString('pt-BR');
+        
     
     
     
-            header.innerHTML = ` <span>${dataAtual} ${horas}:${minutos}:${segundos}</span>`;
+            header.innerHTML = ` <span> ${horas}:${minutos}:${segundos}</span>`;
     
         }, 1000);
     };
